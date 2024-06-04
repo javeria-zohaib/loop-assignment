@@ -127,7 +127,7 @@ let y=0;
 while(!correctGuess&& y<guessedNumber.length){
     let currentguess=guessedNumber[y];
     if(currentguess===randomnumber){
-        console.log("congratulations you guessed a correct num")
+        console.log("congratulations you guessed a correct number")
     }
     else if(currentguess<randomnumber){
         console.log(`${currentguess} wrong guess too low try again!`)
